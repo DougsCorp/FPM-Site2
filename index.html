@@ -88,20 +88,20 @@
     </style>
 
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PX9HZQF');</script>
-<!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P5ZLJ22');</script>
+    <!-- End Google Tag Manager -->
 
   </head>
   <body>  
 
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX9HZQF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5ZLJ22"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     
       <div class="faixa">
         <p><span class="number" id="iD1">602</span> Personas viendo ahora...</p>
@@ -110,6 +110,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
+          
+            <!-- Headline 
+            <h3 class="my-4"><b>Esta plataforma secreta fue revelada en la mayor feria tecnológica realizada en Estados Unidos. A través de ella una de las empresas más grandes del mundo comparte tus ganancias y <span>PAGA 200 DÓLARES TODOS LOS DÍAS EN TAN SOLO 10 MINUTOS</span><br></h3>
+            -->
 
             <!-- HL em IMG -->
             <img style="width: 100%" src="assets/img/hl.png">
@@ -134,7 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <footer>
       <div class="footer">
-        <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.  Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas e resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Sinta-se à vontade para falar conosco em horário comercial de Segunda a Sextas das 09h00 às 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
+        <p>Este site não é afiliado ao Tiktok ou a qualquer entidade do Tiktok.  Depois que você sair do Tiktok, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas e resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Sinta-se à vontade para falar conosco em horário comercial de Segunda a Sextas das 09h00 às 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
       </div>
             <!-- Termos de Uso e Política de Privacidade -->
             <div class="texto-branco-div mt-4"><a href="termos.html" class="texto-branco">Terminos de Uso</a> | <a href="privacidade.html" class="texto-branco">Políticas de Privacidad</a></div>
@@ -178,7 +182,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     //temporização da Call to Action (em milissegundos), PZB 1637000
     setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1230600); 
 
-    
+    // Abrindo o PopUp
+    function openForm() {
+      fundoEscuro ();
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      fundoClaro ();
+      document.getElementById("myForm").style.display = "none";
+    }
+
+    // Deixando o fundo escuro ao aparecer o form
+    var heading = document.getElementById('myForm');
+    function fundoEscuro () {
+      heading.classList.add('dim');
+    };
+
+    function fundoClaro (){
+      heading.classList.remove('dim');
+    };
+
     </script>
 
 
